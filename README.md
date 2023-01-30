@@ -2,24 +2,24 @@
 
 Stack Alert is a custom alert library that provides an elegant and stylish way to show alerts in your web application. With its intuitive API, you can quickly create and customize various types of alerts with ease.
 
-**Installation**
+## Installation
 
 To install Stack Alert Library, you can use npm or include the library directly in your HTML file.
 
-**npm**
+## npm
 <pre>
     npm install stack-alert-js
 </pre>
 
-**Direct include**
+## Direct include
 <pre>
   <script src="https://cdn.jsdelivr.net/npm/stack-alert-js@1.0.0/dist/stack-alert.min.js"></script>
 </pre>
 
-**Usage**
+## Usage
 To use Stack Alert Library, you need to include the library in your HTML file and then use the stal() function to show alerts. You can pass various options to customize the appearance of the alert.
 
-**Example**
+## Example
 The following code shows a basic example of using Stack Alert Library to show a warning alert:
 <pre>
   $('button').click(function() {
@@ -49,7 +49,7 @@ The following code shows a basic example of using Stack Alert Library to show a 
   });
 </pre>
 
-**Options**
+## Options
 The following options are available in Stack Alert Library:
 - **title**: The title of the alert.
 - **text**: The text of the alert.
@@ -61,7 +61,7 @@ The following options are available in Stack Alert Library:
 **Examples**
 Here are some examples of using Stack Alert Library to show different types of alerts:
 
-**Error alert**
+## Error alert
 <pre>
   stal({
     title: 'Error',
@@ -71,7 +71,7 @@ Here are some examples of using Stack Alert Library to show different types of a
   });
 </pre>
 
-**Warning alert**
+## Warning alert
 <pre>
   stal({
     title: 'Warning',
@@ -82,7 +82,7 @@ Here are some examples of using Stack Alert Library to show different types of a
   });
 </pre>
 
-**Info alert**
+## Info alert
 <pre>
   stal({
     title: 'Info',
@@ -92,7 +92,7 @@ Here are some examples of using Stack Alert Library to show different types of a
   });
 </pre>
 
-**Success alert**
+## Success alert
 <pre>
   stal({
     title: 'Success',
@@ -102,5 +102,8 @@ Here are some examples of using Stack Alert Library to show different types of a
   });
 </pre>
 
-**Conclusion**
+## Conclusion
 Stack Alert is a lightweight, easy-to-use, and highly customizable js library that makes creating alerts in your web applications effortless. With its various customization options, you can create alerts that match the look and feel of your application, making it a great choice for both beginners and experienced developers.
+
+## License
+The MIT License (MIT). Please see [License File](https://github.com/spatie/laravel-permission/blob/main/LICENSE.md) for more information.
